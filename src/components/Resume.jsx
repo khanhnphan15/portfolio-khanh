@@ -6,7 +6,7 @@ const Resume = () => {
             <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>
                 Submit Resume
             </h1>
-            <form action='https://getform.io/f/{your-form-endpoint}' method='POST' encType='multipart/form-data'>
+            <form action='https://getform.io/f/335fd48c-20fe-4cf9-9fdd-acb21faca4f7' method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
                         <label className='uppercase text-sm py-2'>Name</label>
