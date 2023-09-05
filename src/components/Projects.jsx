@@ -13,10 +13,10 @@ const Projects = () => {
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
                 {/* Pass the imported image as a prop to ProjectItem */}
-                <ProjectItem title='Hangman' img={Project1Img} />
-                <ProjectItem title='Streamline-HR' img={Project2Img} />
-                <ProjectItem title='Music Box' img={Project3Img} />
-                <ProjectItem title='Nota-Nobile' img={Project4Img} />
+                <ProjectItem title='Hangman' img={Project1Img} technique='Javascript' />
+                <ProjectItem title='Streamline-HR' img={Project2Img} technique='Express js'/>
+                <ProjectItem title='Music Box' img={Project3Img} technique='React Js'/>
+                <ProjectItem title='Nota-Nobile' img={Project4Img} technique='Python'/>
             </div>
         </div>
     )

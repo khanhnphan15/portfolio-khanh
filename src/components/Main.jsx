@@ -8,7 +8,7 @@ const Main = () => {
             <img
                 className='w-full h-screen object-cover object-left'
                 src="https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
-                atl='/'
+                alt='/'
             />
             <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
@@ -21,20 +21,29 @@ const Main = () => {
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                                 'Coder',
                                 2000,
+                                'Accountant',
+                                3000,
                             ]}
                             wrapper="div"
                             speed={50}
                             cursor={true}
                             style={{ fontSize: '1em', paddingLeft: '5px' }}
                             repeat={Infinity}
-
                         />
                     </h2>
                     <div className="flex justify-between pt-6 max-w-[200px] w-full">
-                        <FaFacebookF className='cursor-points' size={30} />
-                        <FaLinkedinIn className='cursor-points' size={30} />
-                        <FaGithubSquare className='cursor-points' size={30} />
-                        <FaInstagram className='cursor-points' size={30} />
+                        <a href="https://www.facebook.com/your-facebook-link" className='cursor-pointer'>
+                            <FaFacebookF size={30} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/khanhking/" className='cursor-pointer'>
+                            <FaLinkedinIn size={30} />
+                        </a>
+                        <a href="https://github.com/khanhnphan15" className='cursor-pointer'>
+                            <FaGithubSquare size={30} />
+                        </a>
+                        <a href="https://www.instagram.com/your-instagram-link" className='cursor-pointer'>
+                            <FaInstagram size={30} />
+                        </a>
                     </div>
                 </div>
             </div>
