@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebookF, FaGithubAlt, FaInstagram, FaLinkedinIn, FaGithubSquare } from 'react-icons/fa'
+import ProfileImage from '../assets/IMG-9597.jpg'; // Import the image
 
 const Main = () => {
     return (
@@ -11,26 +12,41 @@ const Main = () => {
                 alt='/'
             />
             <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
-                <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-                    <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Khanh</h1>
-                    <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">I'm a
-                        <TypeAnimation
-                            sequence={[
-                                // Same substring at the start will only be typed out once, initially
-                                'Developer',
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Coder',
-                                2000,
-                                'Accountant',
-                                3000,
-                            ]}
-                            wrapper="div"
-                            speed={50}
-                            cursor={true}
-                            style={{ fontSize: '1em', paddingLeft: '5px' }}
-                            repeat={Infinity}
+            <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center p-[100px]'>
+                    <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Khanh King</h1>
+                    <div className="flex sm:flex-row flex-col items-center">
+                        <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">I'm a
+                            <TypeAnimation
+                                sequence={[
+                                    'Developer',
+                                    2000,
+                                    'Coder',
+                                    3000,
+
+                                ]}
+                                wrapper="div"
+                                speed={50}
+                                cursor={true}
+                                style={{ fontSize: '1em', paddingLeft: '5px' }}
+                                repeat={Infinity}
+                            />
+                        </h2>
+                        {/* Use the imported image on the right side of the animation */}
+                        <img
+                            src={ProfileImage}
+                            alt="Profile"
+                            style={{
+                                marginLeft: '1rem',
+                                width: '11rem',
+                                height: '11rem',
+                                borderRadius: '50%',
+                                objectFit: 'cover',
+                                position: 'absolute',
+                                top: '21rem',
+                                right: '26rem'
+                            }}
                         />
-                    </h2>
+                    </div>
                     <div className="flex justify-between pt-6 max-w-[200px] w-full">
                         <a href="https://www.facebook.com/your-facebook-link" className='cursor-pointer'>
                             <FaFacebookF size={30} />
