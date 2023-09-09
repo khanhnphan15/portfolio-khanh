@@ -24,6 +24,8 @@ const Main = () => {
                                     2000,
                                     'Coder',
                                     3000,
+                                    'Software engineer based in Atlanta',
+                                    4000,
 
                                 ]}
                                 wrapper="div"
@@ -44,8 +46,8 @@ const Main = () => {
                                 borderRadius: '50%',
                                 objectFit: 'cover',
                                 position: 'absolute',
-                                top: '17rem',
-                                right: '21rem'
+                                top: '18rem',
+                                right: '20rem'
                             }}
                         />
                     </div>

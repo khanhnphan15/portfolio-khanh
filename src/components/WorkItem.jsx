@@ -10,8 +10,8 @@ const WorkItem = ({year, company, duration, title, details}) => {
                     <span className="text-lg font-semibold text-[#001b5e]">{company}</span> 
                     <span className="my-1 text-sm font-normal leading-none text-stone-400">{duration}</span>
                 </p>
-                <p className="my-2 text-base font-normal text-stone-500" style={{ color: 'black' }} >{title}</p>
-                <p className="my-2 text-base font-normal text-stone-500" style={{ color: 'black' }} >{details}</p>
+                <p className="my-2 text-base font-normal text-stone-500 text-left" style={{ color: 'black' }} >{title}</p>
+                <p className="my-2 text-base font-normal text-stone-500 text-justify" style={{ color: 'black' }} >{details}</p>
             </li>
         </ol>
     )

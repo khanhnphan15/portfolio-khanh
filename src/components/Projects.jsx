@@ -8,7 +8,7 @@ import Project4Img from '../assets/Project4.jpg';
 const Projects = () => {
     return (
         <div id='projects' className='max-w-[1040px] m-auto md:pl-20'>
-            <h1 className="text-4xl font-bold text-center text-[#001b5e]">Projects</h1>
+            <h1 className="text-4xl font-bold text-center text-[#001b5e]" style={{ marginTop: '250px' }}>Projects</h1>
             <p className="text-center py-8">
                 You will find a curated collection of my recent undertakings.
             </p>

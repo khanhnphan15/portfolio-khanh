@@ -27,7 +27,7 @@ const Sidenav = () => {
                         <GrProjects size={20} style={{ color: 'black' }} />
                         <span className='pl-4'>Work</span>
                     </a>
-                    <a onClick={closeNav} href="#projects" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                    <a onClick={closeNav} href="#skills" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <GrTechnology size={20} style={{ color: 'black' }} />
                         <span className='pl-4'>Skills</span>
                     </a>
@@ -53,7 +53,7 @@ const Sidenav = () => {
                     <a onClick={closeNav} href="#work" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
                         <GrProjects size={20} />
                     </a>
-                    <a onClick={closeNav} href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+                    <a onClick={closeNav} href="#skills" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
                         <GrTechnology size={20} />
                     </a>
                     <a onClick={closeNav} href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>

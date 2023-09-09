@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
     return (
         <div id='skills' className='max-w-[1040px] m-auto md:pl-20'>
-            <h1 className="text-4xl font-bold text-center text-[#001b5e]">Top Skills</h1>
+            <h1 className="text-4xl font-bold text-center text-[#001b5e]" style={{ marginTop: '120px' }}>Top Skills</h1>
             <p className="text-center py-8">
             Here's a snapshot of the skills I've honed over recent projects.
             </p>

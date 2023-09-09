@@ -3,11 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
 
-        <div id='contact' className="w-full leading-loose m-auto md:pl-20 p-4 py-16">
+        <div id='contact' className="w-full leading-loose m-auto md:pl-20 p-4 py-16 h-screen -mt-24">
 
-            <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>
-                Contact Me
-            </h1>
+<h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8">Contact Me</h1>
 
             <div className="flex flex-wrap items-start ms-12">
                 <form
