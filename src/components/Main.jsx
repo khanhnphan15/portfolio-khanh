@@ -3,11 +3,13 @@ import { TypeAnimation } from "react-type-animation";
 import { FaFacebookF, FaGithubAlt, FaInstagram, FaLinkedinIn, FaGithubSquare } from 'react-icons/fa'
 import ProfileImage from '../assets/IMG-9597.jpg'; // Import the image
 
+
+
 const Main = () => {
     return (
         <div id='main'>
             <img
-                className='w-full h-screen object-cover object-left'
+                className='w-full h-screen object-cover object-left -mt-8'
                 src="https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
                 alt='/'
             />
@@ -42,8 +44,8 @@ const Main = () => {
                                 borderRadius: '50%',
                                 objectFit: 'cover',
                                 position: 'absolute',
-                                top: '21rem',
-                                right: '26rem'
+                                top: '17rem',
+                                right: '21rem'
                             }}
                         />
                     </div>
@@ -68,3 +70,9 @@ const Main = () => {
 }
 
 export default Main;
+
+
+
+
+
+
